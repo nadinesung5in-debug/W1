@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+p {
+     background-color: rgb(227, 215, 215);
+     color: rgb(81, 16, 48);
+     padding: 10px;
+ }
+
+ h1{
+    color: rgb(192, 225, 255);
+ }
+
+ h3 {
+     background-color: rgb(169, 207, 242);
+     color: rgb(41, 5, 75);
+     padding: 10px;
+ }
