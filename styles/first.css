@@ -1,24 +1,28 @@
  #light{
-    border: 5px solid rgb(179, 179, 228)
- }
- 
- body{
+
     background-color: white;
     color:black;
- }
+ 
  
  p {
-     background-color: rgb(116, 37, 37);
-     color: hotpink;
+     background-color: rgb(194, 123, 123);
+     color: rgb(92, 11, 51);
      padding: 10px;
+ }
+
+ .piglet{
+    background-color:rgb(55, 82, 106);
+    color:rgb(48, 255, 186);
+    padding:30px;
  }
 
  h1{
-   color:hotpink 
+   color:rgb(92, 12, 51) 
  }
 
  h3 {
-     background-color: rgb(26, 53, 78);
-     color: blueviolet;
+     background-color: rgb(67, 122, 173);
+     color: rgb(58, 6, 106);
      padding: 10px;
  }
+}

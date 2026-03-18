@@ -1,4 +1,4 @@
-body{
+#dark{
     background-color: black;
 }
 
@@ -6,6 +6,12 @@ p {
      background-color: rgb(227, 215, 215);
      color: rgb(81, 16, 48);
      padding: 10px;
+ }
+
+ .piglet{
+    background-color:rgb(105, 126, 144);
+    color:rgb(16, 73, 53);
+    padding:30px;
  }
 
  h1{
