@@ -5,15 +5,25 @@
       <link rel="stylesheet" href="./styles/second.css">
       <link rel="stylesheet" href="./styles/first.css">
    </head>
-   <body id="light">
-       <button onclick="document.body.id='dark'">
+   <body id="dark">
+       <button id = "color-mode" onclick="changeColors();">
         Dark mode
        </button>
-       <button onclick="document.body.id='light'">
-        Light mode
-       </button>
+       
        <script>
-        
+         const colorModeButton = document.querySelector('#color-mode');
+
+         function changeColors() {
+          if(document.body.id === "dark"){
+             console.log('turn on light');
+             document.body.id='light';
+             colorModeButton.textContent = 'dark mode';
+            } else{
+              console.log('turn on dark');
+              document.body.id = 'dark';
+              colorModeButton.textContent = 'light mode'
+            }
+        } 
        </script>
        <h1>My first website</h1>
        <h2>MARTIN EDWARDS</h2>
