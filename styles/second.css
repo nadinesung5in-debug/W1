@@ -1,26 +1,27 @@
 #dark{
-    background-color: black;
-
-
+background-color: rgb(0, 0, 0);
+    color:rgb(255, 0, 234);
+ 
+ 
  p {
-     background-color: rgb(227, 215, 215);
-     color: rgb(81, 16, 48);
+     background-color: rgb(90, 11, 72);
+     color: rgb(255, 81, 252);
      padding: 10px;
  }
 
  .piglet{
-    background-color:rgb(105, 126, 144);
-    color:rgb(16, 73, 53);
+    background-color:rgb(95, 37, 129);
+    color:rgb(237, 154, 197);
     padding:30px;
  }
 
  h1{
-    color: rgb(192, 225, 255);
+   color:rgb(244, 156, 223) 
  }
 
  h3 {
-     background-color: rgb(169, 207, 242);
-     color: rgb(41, 5, 75);
+     background-color: rgb(184, 59, 219);
+     color: rgb(125, 42, 96);
      padding: 10px;
  }
 }

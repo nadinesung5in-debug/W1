@@ -9,9 +9,12 @@
        <button id = "color-mode" onclick="changeColors();">
         Dark mode
        </button>
-       
+       <button id="my-mood" onclick="howAreYou();">
+          Mood
+        </button>
        <script>
          const colorModeButton = document.querySelector('#color-mode');
+         const moodButton = document.querySelector('#my-mood');
 
          function changeColors() {
           if(document.body.id === "dark"){
@@ -22,8 +25,20 @@
               console.log('turn on dark');
               document.body.id = 'dark';
               colorModeButton.textContent = 'light mode'
-            }
-        } 
+           }
+          } 
+         function howAreYou(){
+            let mood = prompt("How are you feeling?");
+            if(mood === "sleepy"){
+             alert('WAKE UP');
+            } else {
+             alert("Oh! You are feeling " + mood + ".");
+             console.log(mood);
+            } 
+           } 
+        
+
+             
        </script>
        <h1>My first website</h1>
        <h2>MARTIN EDWARDS</h2>
@@ -43,30 +58,23 @@
         yayyyyy
        </p>
 
+       
        <script>
-        let dog = {
+         let dog = {
             name: "Puddles",
             weight: 7,
             happy: false,
-        };
-        console.log(dog.name);
-        let family = {
+         };
+         console.log(dog.name);
+         let family = {
             dad: "Ba",
             mom: "Ma",
             daughter: "Jie",
             pet: dog,
-        };
-        console.log(family);
-        family.pet.happy = true;
-        console.log(console);
-
-        let mood = prompt("How are you feeling?");
-        if(mood === "sleepy"){
-            alert('WAKE UP');
-        } else {
-            alert("Oh! You are feeling " + mood + ".");
-        }
-        console.log(mood);
+         };
+         console.log(family);
+         family.pet.happy = true;
+         console.log(console);
        </script>
        <footer>
         <p>03.12.2026</p>
